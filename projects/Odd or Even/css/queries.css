@@ -1,0 +1,110 @@
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        margin-bottom: 5vh;
+    }
+
+    #game {
+        padding: 10px 2% 0 2%;
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+
+    .player-name {
+        font-size: 200%;
+    }
+
+    .scoreboard {
+        font-size: 100%;
+    }
+
+    .player-point {
+        font-size: 130%;
+    }
+
+    .dice {
+        width: 25%;
+    }
+
+    .dice.animate {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        -webkit-transition: -webkit-transform 0.1s;
+        transition: -webkit-transform 0.1s;
+        transition: transform 0.1s;
+        transition: transform 0.1s, -webkit-transform 0.1s;
+    }
+    
+    .dice.animate-over {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-transition: -webkit-transform 0.1s;
+        transition: -webkit-transform 0.1s;
+        transition: transform 0.1s;
+        transition: transform 0.1s, -webkit-transform 0.1s;
+    }
+
+    #dice-sum {
+        width: 130px;
+        font-size: 180%;
+    }
+
+    #btn-new {
+        width: 150px;
+        height: 50px;
+    }
+
+    .player-btn button {
+        display: inline-block;
+        width: 30%;
+        min-width: 50px;
+        height: 40px;
+        font-size: 90%;
+    }
+
+    .roll-disabled {
+        width: 150px;
+        height: 70px;
+    }
+    
+    .roll-enabled {
+        width: 150px;
+        height: 70px;
+    }
+    
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+
+    #btn-new {
+        width: 120px;
+        height: 30px;
+    }
+
+    #dice-sum {
+        width: 100px;
+    }
+
+    .player-btn button {
+        height: 30px;
+    }
+
+    .roll-disabled {
+        width: 140px;
+        height: 50px;
+    }
+    
+    .roll-enabled {
+        width: 140px;
+        height: 50px;
+    }
+
+}
