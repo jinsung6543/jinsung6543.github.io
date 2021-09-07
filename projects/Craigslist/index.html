@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="icon" href="img/logo.png">
+    <title>craigslist</title>
+  </head>
+  <body>
+    <div id="page">
+      <div id="sidebar" class="text-white">
+        <div id="side-title">
+          <h1 class="text-center"><a id="craigslist" href="index.html">craigslist</a></h1>
+
+          <img id="side-logo" src="img/logo1.png" alt="logo">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link text-white" href="#">Create Post</a>
+              <a class="nav-item nav-link text-white" href="#">Create Classified Post</a>
+              <a class="nav-item nav-link text-white" href="#">My Account</a>
+              <a class="nav-item nav-link text-white" href="#">Event Calendar</a>
+            </div>
+          </div>
+        </nav>
+        <div id="side-content" class="container">
+          <div id="post">
+            <button class="side-btn btn mt-0" type="button">Create Post</button>
+            <button class="side-btn btn" type="button">Create Classified Post</button>
+          </div>
+          <div id="account">
+            <h5 class="mt-5">My Account</h5>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">My Profile</a>
+              <a href="#" class="list-group-item list-group-item-action">Recent Posts</a>
+              <a href="#" class="list-group-item list-group-item-action">User Settings</a>
+              <a href="#" class="list-group-item list-group-item-action">Log Out</a>
+            </div>
+          </div>
+          <div id="event-calendar">
+            <h5 class="mt-5">Event Calendar</h5>
+            <form>
+              <div class="row container mx-0 px-0">
+                <div class="col-5 px-0">
+                  <select class="form-control px-1">
+                    <option selected disabled>MM</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                  </select>
+                </div>
+                <div class="col-3 px-0">
+                  <select class="form-control px-1">
+                    <option selected disabled>DD</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                  </select>
+                </div>
+                <div class="col-4 px-0">
+                  <select class="form-control px-1">
+                    <option selected disabled>YY</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+            <button class="side-btn btn" type="button">Find Events</button>
+          </div>
+          <div id="side-list" class="mt-5">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">Help, FAQ, Abuse, Legal</a>
+              <a href="#" class="list-group-item list-group-item-action">Avoid Scams & Fraud</a>
+              <a href="#" class="list-group-item list-group-item-action">Personal Safety Tips</a>
+              <a href="#" class="list-group-item list-group-item-action">Terms of Use</a>
+              <a href="#" class="list-group-item list-group-item-action ">Privacy Policy</a>
+              <a href="#" class="list-group-item list-group-item-action ">System Status</a>
+            </div>
+          </div>
+          <div id="side-list" class="mt-5">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">About Craigslist</a>
+              <a href="#" class="list-group-item list-group-item-action">Craigslist Open Source</a>
+              <a href="#" class="list-group-item list-group-item-action">Craigslist Blog</a>
+              <a href="#" class="list-group-item list-group-item-action">Best-Of-Craigslist</a>
+              <a href="#" class="list-group-item list-group-item-action ">Craigslist TV</a>
+              <a href="#" class="list-group-item list-group-item-action ">"Craigslist Joe"</a>
+              <a href="#" class="list-group-item list-group-item-action ">Craig Connects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main">
+        <div id="search-bg">
+          <div id="search">
+            <form role="search">
+              <div id="search-region">
+                <h2 id="search-label" class="text-white font-weight-bold">Vancouver, BC</h2>
+                <div id="dropdown-button">
+                  <button type="submit" id="search-dropdown" data-toggle="dropdown">
+                    <img src="img/dropdown.png" alt="dropdown">
+                  </button>
+                  <div id="search-dropdown-menu" class="dropdown-menu" aria-labelledby="dropdownMenu">
+                    <button class="dropdown-item" type="button">Vancouver</button>
+                    <button class="dropdown-item" type="button">North Shore</button>
+                    <button class="dropdown-item" type="button">Burnaby</button>
+                    <button class="dropdown-item" type="button">New Westminster</button>
+                    <button class="dropdown-item" type="button">Delta</button>
+                    <button class="dropdown-item" type="button">Surrey</button>
+                    <button class="dropdown-item" type="button">Langley</button>
+                    <button class="dropdown-item" type="button">Tricities</button>
+                    <button class="dropdown-item" type="button">Pitt Meadows</button>
+                    <button class="dropdown-item" type="button">Maple Ridge</button>
+                    <button class="dropdown-item" type="button">Richmond</button>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group d-flex justify-content-center">
+                <input type="search" id="site-search" aria-label="Search">
+                <button type="button" id="search-btn" class="btn">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div id="content">
+          <div class="card-columns container">
+            <div class="card">
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">Community</h5></a>
+                <hr>
+                <ul>
+                  <li>
+                    <a href="#">Activities</a>
+                  </li>
+                  <li>
+                    <a href="#">Artists</a>
+                  </li>
+                  <li>
+                    <a href="#">Childcare</a>
+                  </li>
+                  <li>
+                    <a href="#">Classes</a>
+                  </li>
+                  <li>
+                    <a href="#">Events</a>
+                  </li>
+                  <li>
+                    <a href="#">General</a>
+                  </li>
+                  <li>
+                    <a href="#">Groups</a>
+                  </li>
+                  <li>
+                    <a href="#">Local News</a>
+                  </li>
+                  <li>
+                    <a href="#">Lost + Found</a>
+                  </li>
+                  <li>
+                    <a href="#">Missed</a>
+                  </li>
+                  <li>
+                    <a href="#">Connections</a>
+                  </li>
+                  <li>
+                    <a href="#">Musicians</a>
+                  </li>
+                  <li>
+                    <a href="#">Pets</a>
+                  </li>
+                  <li>
+                    <a href="#">Politics</a>
+                  </li>
+                  <li>
+                    <a href="#">Rants & Raves</a>
+                  </li>
+                  <li>
+                    <a href="#">Rideshare</a>
+                  </li>
+                  <li>
+                    <a href="#">Volunteers</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">Discussion Forums</h5></a>
+                <hr>
+                <ul>
+                  <li>
+                    <a href="#">Android</a>
+                  </li>
+                  <li>
+                    <a href="#">Apple</a>
+                  </li>
+                  <li>
+                    <a href="#">Arts</a>
+                  </li>
+                  <li>
+                    <a href="#">Atheist</a>
+                  </li>
+                  <li>
+                    <a href="#">Autos</a>
+                  </li>
+                  <li>
+                    <a href="#">Beauty</a>
+                  </li>
+                  <li>
+                    <a href="#">Bikes</a>
+                  </li>
+                  <li>
+                    <a href="#">Celebs</a>
+                  </li>
+                  <li>
+                    <a href="#">Comp</a>
+                  </li>
+                  <li>
+                    <a href="#">Cosmos</a>
+                  </li>
+                  <li>
+                    <a href="#">Diet</a>
+                  </li>
+                  <li>
+                    <a href="#">Divorce</a>
+                  </li>
+                  <li>
+                    <a href="#">Dying</a>
+                  </li>
+                  <li>
+                    <a href="#">Eco</a>
+                  </li>
+                  <li>
+                    <a href="#">Feedbk</a>
+                  </li>
+                  <li>
+                    <a href="#">Film</a>
+                  </li>
+                  <li>
+                    <a href="#">Fixit</a>
+                  </li>
+                  <li>
+                    <a href="#">Food</a>
+                  </li>
+                  <li>
+                    <a href="#">Frugal</a>
+                  </li>
+                  <li>
+                    <a href="#">Gaming</a>
+                  </li>
+                  <li>
+                    <a href="#">Garden</a>
+                  </li>
+                  <li>
+                    <a href="#">Haiku</a>
+                  </li>
+                  <li>
+                    <a href="#">Help</a>
+                  </li>
+                  <li>
+                    <a href="#">History</a>
+                  </li>
+                  <li>
+                    <a href="#">Housing</a>
+                  </li>
+                  <li>
+                    <a href="#">Jobs</a>
+                  </li>
+                  <li>
+                    <a href="#">Jokes</a>
+                  </li>
+                  <li>
+                    <a href="#">Legal</a>
+                  </li>
+                  <li>
+                    <a href="#">Linux</a>
+                  </li>
+                  <li>
+                    <a href="#">Manners</a>
+                  </li>
+                  <li>
+                    <a href="#">Marriage</a>
+                  </li>
+                  <li>
+                    <a href="#">Money</a>
+                  </li>
+                  <li>
+                    <a href="#">Music</a>
+                  </li>
+                  <li>
+                    <a href="#">Open</a>
+                  </li>
+                  <li>
+                    <a href="#">Outdoor</a>
+                  </li>
+                  <li>
+                    <a href="#">Parent</a>
+                  </li>
+                  <li>
+                    <a href="#">Pets</a>
+                  </li>
+                  <li>
+                    <a href="#">Philos</a>
+                  </li>
+                  <li>
+                    <a href="#">Photo</a>
+                  </li>
+                  <li>
+                    <a href="#">Politics</a>
+                  </li>
+                  <li>
+                    <a href="#">Psych</a>
+                  </li>
+                  <li>
+                    <a href="#">Recover</a>
+                  </li>
+                  <li>
+                    <a href="#">Religion</a>
+                  </li>
+                  <li>
+                    <a href="#">Rofo</a>
+                  </li>
+                  <li>
+                    <a href="#">Science</a>
+                  </li>
+                  <li>
+                    <a href="#">Spirit</a>
+                  </li>
+                  <li>
+                    <a href="#">Sports</a>
+                  </li>
+                  <li>
+                    <a href="#">Super</a>
+                  </li>
+                  <li>
+                    <a href="#">Tax</a>
+                  </li>
+                  <li>
+                    <a href="#">Travel</a>
+                  </li>
+                  <li>
+                    <a href="#">TV</a>
+                  </li>
+                  <li>
+                    <a href="#">Vegan</a>
+                  </li>
+                  <li>
+                    <a href="#">Wrods</a>
+                  </li>
+                  <li>
+                    <a href="#">Writing</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">Housing</h5></a>
+                <hr>
+                <ul>
+                  <li>
+                    <a href="#">Apts / Housing</a>
+                  </li>
+                  <li>
+                    <a href="#">Housing Swap</a>
+                  </li>
+                  <li>
+                    <a href="#">Housing Wanted</a>
+                  </li>
+                  <li>
+                    <a href="#">Office / Commercial</a>
+                  </li>
+                  <li>
+                    <a href="#">Parking / Storage</a>
+                  </li>
+                  <li>
+                    <a href="#">Real Estate for Sale</a>
+                  </li>
+                  <li>
+                    <a href="#">Rooms / Shared</a>
+                  </li>
+                  <li>
+                    <a href="#">Rooms Wanted</a>
+                  </li>
+                  <li>
+                    <a href="#">Sublets / Temporary</a>
+                  </li>
+                  <li>
+                    <a href="#">Vacation Rentals</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">Jobs</h5></a>
+                <hr>
+                <ul>
+                  <li>
+                    <a href="#">Accounting + Finance</a>
+                  </li>
+                  <li>
+                    <a href="#">Admin / Office</a>
+                  </li>
+                  <li>
+                    <a href="#">Arch / Engineering</a>
+                  </li>
+                  <li>
+                    <a href="#">Art / Media / Design</a>
+                  </li>
+                  <li>
+                    <a href="#">Biotech / Science</a>
+                  </li>
+                  <li>
+                    <a href="#">Business / Mgmt</a>
+                  </li>
+                  <li>
+                    <a href="#">Customer Service</a>
+                  </li>
+                  <li>
+                    <a href="#">Education</a>
+                  </li>
+                  <li>
+                    <a href="#">Etc / Misc</a>
+                  </li>
+                  <li>
+                    <a href="#">Food / Bev / Hosp</a>
+                  </li>
+                  <li>
+                    <a href="#">General Labor</a>
+                  </li>
+                  <li>
+                    <a href="#">Government</a>
+                  </li>
+                  <li>
+                    <a href="#">Human Resources</a>
+                  </li>
+                  <li>
+                    <a href="#">Legal / Paralegal</a>
+                  </li>
+                  <li>
+                    <a href="#">Manufacturing</a>
+                  </li>
+                  <li>
+                    <a href="#">Marketing / Pr / Ad</a>
+                  </li>
+                  <li>
+                    <a href="#">Medical / Health</a>
+                  </li>
+                  <li>
+                    <a href="#">Nonprofit Sector</a>
+                  </li>
+                  <li>
+                    <a href="#">Real Estate</a>
+                  </li>
+                  <li>
+                    <a href="#">Retail / Wholesale</a>
+                  </li>
+                  <li>
+                    <a href="#">Sales / Biz Dev</a>
+                  </li>
+                  <li>
+                    <a href="#">Salon / Spa / Fitness</a>
+                  </li>
+                  <li>
+                    <a href="#">Security</a>
+                  </li>
+                  <li>
+                    <a href="#">Skilled Trade / Craft</a>
+                  </li>
+                  <li>
+                    <a href="#">Software / QA / Dba</a>
+                  </li>
+                  <li>
+                    <a href="#">Systems / Network</a>
+                  </li>
+                  <li>
+                    <a href="#">Technical Support</a>
+                  </li>
+                  <li>
+                    <a href="#">Transport</a>
+                  </li>
+                  <li>
+                    <a href="#">TV / Film / Video</a>
+                  </li>
+                  <li>
+                    <a href="#">Web / Info Design</a>
+                  </li>
+                  <li>
+                    <a href="#">Writing / Editing</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">Services</h5></a>
+                <hr>
+                <ul>
+                  <li>
+                    <a href="#">Automotive</a>
+                  </li>
+                  <li>
+                    <a href="#">Beauty</a>
+                  </li>
+                  <li>
+                    <a href="#">Cell / Mobile</a>
+                  </li>
+                  <li>
+                    <a href="#">Computer</a>
+                  </li>
+                  <li>
+                    <a href="#">Creative</a>
+                  </li>
+                  <li>
+                    <a href="#">Cycle</a>
+                  </li>
+                  <li>
+                    <a href="#">Event</a>
+                  </li>
+                  <li>
+                    <a href="#">Farm + Garden</a>
+                  </li>
+                  <li>
+                    <a href="#">Financial</a>
+                  </li>
+                  <li>
+                    <a href="#">Household</a>
+                  </li>
+                  <li>
+                    <a href="#">Labor / Move</a>
+                  </li>
+                  <li>
+                    <a href="#">Legal</a>
+                  </li>
+                  <li>
+                    <a href="#">Lessons</a>
+                  </li>
+                  <li>
+                    <a href="#">Marine</a>
+                  </li>
+                  <li>
+                    <a href="#">Pet</a>
+                  </li>
+                  <li>
+                    <a href="#">Real Estate</a>
+                  </li>
+                  <li>
+                    <a href="#">Skilled Trade</a>
+                  </li>
+                  <li>
+                    <a href="#">Sm Biz Ads</a>
+                  </li>
+                  <li>
+                    <a href="#">Travel / Vac</a>
+                  </li>
+                  <li>
+                    <a href="#">Write / Ed / Tran</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">For Sale</h5></a>
+                <hr>
+                <ul>
+                  <li>
+                    <a href="#">Antiques</a>
+                  </li>
+                  <li>
+                    <a href="#">Appliances</a>
+                  </li>
+                  <li>
+                    <a href="#">Arts + Crafts</a>
+                  </li>
+                  <li>
+                    <a href="#">ATV / UTV / Sno</a>
+                  </li>
+                  <li>
+                    <a href="#">Auto Parts</a>
+                  </li>
+                  <li>
+                    <a href="#">Aviation</a>
+                  </li>
+                  <li>
+                    <a href="#">Baby + Kid</a>
+                  </li>
+                  <li>
+                    <a href="#">Barter</a>
+                  </li>
+                  <li>
+                    <a href="#">Beauty + Hlth</a>
+                  </li>
+                  <li>
+                    <a href="#">Bike Parts</a>
+                  </li>
+                  <li>
+                    <a href="#">Bikes</a>
+                  </li>
+                  <li>
+                    <a href="#">Boat Parts</a>
+                  </li>
+                  <li>
+                    <a href="#">Boats</a>
+                  </li>
+                  <li>
+                    <a href="#">Books</a>
+                  </li>
+                  <li>
+                    <a href="#">Business</a>
+                  </li>
+                  <li>
+                    <a href="#">Cars + Trucks</a>
+                  </li>
+                  <li>
+                    <a href="#">Cds / Dvd / Vhs</a>
+                  </li>
+                  <li>
+                    <a href="#">Cell Phones</a>
+                  </li>
+                  <li>
+                    <a href="#">Clothes + Acc</a>
+                  </li>
+                  <li>
+                    <a href="#">Collectibles</a>
+                  </li>
+                  <li>
+                    <a href="#">Computer Parts</a>
+                  </li>
+                  <li>
+                    <a href="#">Computers</a>
+                  </li>
+                  <li>
+                    <a href="#">Electronics</a>
+                  </li>
+                  <li>
+                    <a href="#">Farm + Garden</a>
+                  </li>
+                  <li>
+                    <a href="#">Free</a>
+                  </li>
+                  <li>
+                    <a href="#">Furniture</a>
+                  </li>
+                  <li>
+                    <a href="#">Garage Sale</a>
+                  </li>
+                  <li>
+                    <a href="#">General</a>
+                  </li>
+                  <li>
+                    <a href="#">Heavy Equip</a>
+                  </li>
+                  <li>
+                    <a href="#">Household</a>
+                  </li>
+                  <li>
+                    <a href="#">Jewelry</a>
+                  </li>
+                  <li>
+                    <a href="#">Materials</a>
+                  </li>
+                  <li>
+                    <a href="#">Motorcycle Parts</a>
+                  </li>
+                  <li>
+                    <a href="#">Motorcycles</a>
+                  </li>
+                  <li>
+                    <a href="#">Music Instr</a>
+                  </li>
+                  <li>
+                    <a href="#">Photo + Video</a>
+                  </li>
+                  <li>
+                    <a href="#">Rvs + Camp</a>
+                  </li>
+                  <li>
+                    <a href="#">Sporting</a>
+                  </li>
+                  <li>
+                    <a href="#">Tickets</a>
+                  </li>
+                  <li>
+                    <a href="#">Tools</a>
+                  </li>
+                  <li>
+                    <a href="#">Toys + Games</a>
+                  </li>
+                  <li>
+                    <a href="#">Trailers</a>
+                  </li>
+                  <li>
+                    <a href="#">Video Gaming</a>
+                  </li>
+                  <li>
+                    <a href="#">Wanted</a>
+                  </li>
+                  <li>
+                    <a href="#">Wheels + Tires</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">Gigs</h5></a>
+                <hr>
+                <ul>
+                  <li>
+                    <a href="#">Computer</a>
+                  </li>
+                  <li>
+                    <a href="#">Creative</a>
+                  </li>
+                  <li>
+                    <a href="#">Crew</a>
+                  </li>
+                  <li>
+                    <a href="#">Domestic</a>
+                  </li>
+                  <li>
+                    <a href="#">Event</a>
+                  </li>
+                  <li>
+                    <a href="#">Labor</a>
+                  </li>
+                  <li>
+                    <a href="#">Talent</a>
+                  </li>
+                  <li>
+                    <a href="#">Writing</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <div id="footer" class="container-fluid">
+        <small class="float-left cont">&copy;Craigslist | Created by Jin Sung Kim</small>
+        <div class="float-right cont">
+          <a href="#"><small class="mx-1">Help</small></a>
+          <a href="#"><small class="mx-1">Safety</small></a>
+          <a href="#"><small class="mx-1">Privacy</small></a>
+          <a href="#"><small class="mx-1">Feedback</small></a>
+          <a href="#"><small class="mx-1">CL Jobs</small></a>
+          <a href="#"><small class="mx-1">Terms</small></a>
+          <a href="#"><small class="mx-1">About</small></a>
+          <a href="#"><small class="mx-1">Language</small></a>
+          <a href="#"><small class="mx-1">Mobile</small></a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </script>
+  </body>
+
+
+</html>

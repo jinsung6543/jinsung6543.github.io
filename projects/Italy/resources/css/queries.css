@@ -1,0 +1,522 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+/*********************************************************************** 
+                            FRONT
+ ***********************************************************************/
+    body {
+        overflow-x: hidden;
+    }
+
+    #home-logo {
+        height: 60px;
+        width: auto;
+        margin-left: 20px;
+        margin-top: 10px;
+        float: left;
+    }
+    
+    .italy-title {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 200;
+    }
+
+    .main-nav li a {
+        padding: 8px 0;
+        font-size: 70%;
+        border-bottom: 2px solid transparent;
+    }
+
+    h1 {
+        font-size: 220%;
+    }
+    
+    h2 {
+        font-size: 170%;
+    }
+
+    .home-side {
+        margin-bottom: 50px;
+    }
+/*********************************************************************** 
+                        SIDE LINKS
+***********************************************************************/
+    .side-links {
+        border-top: 4px solid #e55c25;
+        padding-top: 8px;
+        background-color: #fff;
+    }
+
+    .side-links h5 {
+        font-size: 100%;
+    }
+
+    .side-links a {
+        font-size: 90%;
+    }
+
+/*********************************************************************** 
+                        IMAGES
+***********************************************************************/
+
+    .pic-desc-content {
+        background-color: #fff;
+        height: 60px;
+        border-radius: 0  5px 5px 5px;
+        padding: 1% 2%;
+    }
+
+    .pic-desc-title {
+        font-size: 100%;
+        padding: 1% 2%;
+    }
+
+    .pic-desc-content h5 {
+        font-size: 110%;
+    }
+    
+    .slide-pic-desc {
+        font-size: 70%;
+    }    
+    
+    .cont-pic-desc-title {
+        font-size: 90%;
+        padding: 1% 2%;
+    }
+    
+    .cont-pic-desc-content h5 {
+        font-size: 90%;
+    }
+ /*********************************************************************** 
+                            DISCOVER ITALY
+ ***********************************************************************/
+
+    .home-discover-img img {
+        height: 140px;
+    }
+
+/*********************************************************************** 
+                        HOME-NEWS
+***********************************************************************/
+
+    .home-news-content h5 {
+        font-size: 100%;
+        color: #608796;
+    }
+
+    .home-news-content p {
+        font-size: 90%;
+    }
+
+     /*********************************************************************** 
+                                DISCOVER
+    ***********************************************************************/
+    .main-content {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+
+     /*********************************************************************** 
+                            NEWS
+    ***********************************************************************/
+    
+    .news-pic-desc h5 {
+        font-size: 110%;
+    }
+    .news-pic-desc p {
+        font-size: 90%;;
+    }
+
+    .news-date {
+        font-size: 90%;
+    }
+
+    /*********************************************************************** 
+                            MAPS
+    ***********************************************************************/
+    #map {
+        height: 600px;
+    }
+    
+     /*********************************************************************** 
+                            FOOTER
+    ***********************************************************************/
+
+    footer {
+        font-size: 70%;
+    }
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 992px) {
+    /*********************************************************************** 
+                            NAV
+    ***********************************************************************/
+    nav {
+        height: 80px;
+    }
+
+    #home-logo {
+        height: 60px;
+        width: auto;
+        margin-left: 20px;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .italy-title {
+        display: none;
+    }
+
+    .main-nav {
+        margin-top: 35px;
+    }
+
+    .main-nav li {
+        margin-left: 30px;
+    }
+
+    .main-nav li a {
+        font-size: 67%;
+    }
+
+    
+     /*********************************************************************** 
+                            HOME-SIDE
+    ***********************************************************************/
+    .home-side {
+        width: 60%;
+        min-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #home .side-links {
+        width: 90%;
+    }
+
+    #home .side-content {
+        width: 80%;
+    }
+
+    
+
+     /*********************************************************************** 
+                            SIDE LINKS
+    ***********************************************************************/
+    .side-links-queries {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 0;
+    }
+
+    .side-links {
+        margin-top: 20px;
+        display: inline-block;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 24%;
+    }
+    
+    .side-links h5 {
+        padding-left: 10px;
+        color: #608796;
+    }
+    
+    .side-links ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    
+    .side-links li {
+        display: block;
+        border-bottom: 1px solid #ced7d4
+    }
+    
+    .side-links a {
+        display: block;
+        color: #000;
+        padding: 5px 10px;
+    }
+    
+    .side-links a:hover {
+        text-decoration: none;
+        background-color: #ced7d4;
+    }
+    
+    .side-links i {
+        float: right;
+        color: #608796;
+    }
+
+    .side-links.no-b {
+        padding: 0;
+    }
+
+     /*********************************************************************** 
+                                NEWS
+    ***********************************************************************/
+    #news .side-links {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: initial;
+    }
+
+    #news .rest-image {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 380px;
+    }
+    
+     /*********************************************************************** 
+                                VIDEO
+    ***********************************************************************/
+    #video .side-links {
+        width: 100%;
+        height: initial;
+    }
+
+    /*********************************************************************** 
+                                INFO
+    ***********************************************************************/
+    #info .side-links-queries {
+        display: block;
+    }
+
+    #info .side-links {
+        width: 100%;
+        height: initial;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 768px) {
+    main {
+        margin-top: 120px;
+    }
+
+    .home-main {
+        margin-top: -120px;
+    }
+
+    /*********************************************************************** 
+                            NAV
+    ***********************************************************************/
+    .page nav {
+        position: initial;
+    }
+
+    .main-nav {
+        display: none;
+        margin: 0;
+    }
+
+    .page .js--main-nav {
+        padding-left: 0;
+        padding-top: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: 10px 0;
+    }
+
+    ul.main-nav {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+    }
+    
+    .page .main-nav li {
+        display: inline-block;
+        height: 10px;
+        margin-left: 40px;
+    }
+    
+    .page .main-nav li a {
+        padding: 8px 0;
+        color: #fff;
+        text-decoration: none;
+        font-size: 60%;
+        border: none;
+        padding-bottom: 2px;
+    }
+    
+    .page .main-nav li .active,
+    .page .main-nav li a:hover {
+        border-bottom: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+    }
+
+    /*********************************************************************** 
+                            FRONT
+    ***********************************************************************/
+
+    .italy-title {
+        display: none;
+    }
+
+    .main-nav li {
+        margin-left: 30px;
+    }
+
+    .main-nav li a {
+        font-size: 55%;
+    }
+
+    #italy-intro {
+        margin-top: 30vh;
+    }
+    
+    .quote {
+        display: block;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .home-discover-img {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*********************************************************************** 
+                            SIDE LINKS
+    ***********************************************************************/
+    .side-links-queries {
+        display: block;
+    }
+
+    .side-links {
+        width: 100%;
+        height: initial;
+    }
+
+    .small img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*********************************************************************** 
+                           IMAGES
+    ***********************************************************************/
+
+    #home .pic-desc {
+        position: relative;
+        top: -70px;
+    }
+
+    #home .pic-desc-content {
+        background-color: #fff;
+        height: 50px;
+        border-radius: 0  5px 5px 5px;
+        padding: 1% 2%;
+    }
+
+    #home .pic-desc-title {
+        font-size: 90%;
+        padding: 1% 2%;
+    }
+
+    #home .pic-desc-content h5 {
+        font-size: 90%;
+    }
+    #home .pic-desc-content p {
+        font-size: 80%;
+    }
+    
+
+    .rest-image {
+        padding: 0;
+    }
+
+    .small .cont-pic-desc {
+        position: initial;
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+    .small .cont-pic-desc-title {
+        font-size: 100%;
+        color: #fff;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .small .cont-pic-desc-content h5,
+    .small .cont-pic-desc-content p {
+        text-align: center;
+    }
+
+    /*********************************************************************** 
+                                NEWS
+    ***********************************************************************/
+
+    .first-news img,
+    .rest-news img {
+        width: 100%;
+    }
+    
+    .news-pic-desc {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    
+
+    /*********************************************************************** 
+                                MAP
+    ***********************************************************************/
+    #map {
+        height: 65vh;
+    }
+
+    /*********************************************************************** 
+                                FOOTER
+    ***********************************************************************/
+    footer {
+        padding: 15px 0;
+    }
+
+    #follow {
+        font-size: 130%;
+    }
+
+    .social-links li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .footer-nav li {
+        display: none;
+        margin-right: 20px;
+    }
+
+    .main-footer,
+    .main-footer h6,
+    .main-footer .col-4,
+    .main-footer .col-2 {
+        display: none;
+    }
+    
+}

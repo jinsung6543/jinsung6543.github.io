@@ -1,0 +1,87 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    table, td, tr {
+        border-collapse: collapse;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    body {
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+
+    h2.display-4 {
+        font-size: 300%;
+    }
+
+    p.lead {
+        font-size: 120%;
+    }
+
+    h4 {
+        font-size: 150%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 300%;
+    }
+
+    h2.display-4 {
+        font-size: 220%;
+    }
+
+    h4,h5 {
+        font-size: 120%;
+    }
+
+    p.lead {
+        font-size: 110%;
+    }
+
+    hr {
+        margin-bottom: 30px;
+    }
+
+    #feedback {
+        width: 80%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .jumbotron {
+        height: 55%;
+    }
+    
+    #intro {
+        margin-top: 40%;
+    }
+      
+    td, tr {
+        width:100%;
+        float:left;
+        clear:both;
+        display:block;
+        text-align:center;
+        border-collapse: collapse;
+    }
+
+    table {
+        border: none;
+        width: 80%;
+    }
+
+    #feedback {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
